@@ -1,7 +1,14 @@
+var con = document.getElementById("converter");
+con.addEventListener('keydown', function(event) {
+  if (event.code == 'ControlLeft') {
+    convertB();
+  }
+  if (event.code == 'ControlRight') {
+  	convertW();
+  }
+});
 
-
-
-function convert(){
+function convertB(){
 var con = document.getElementById("converter").value;
 var ans = document.getElementById("type");
 document.getElementById("label").innerHTML = con+":";
