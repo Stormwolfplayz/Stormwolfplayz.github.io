@@ -1,3 +1,4 @@
+window.onload=function() {
 var con = document.getElementById("converter");
 con.addEventListener('keydown', function(event) {
   if (event.code == 'ControlLeft') {
@@ -22,4 +23,5 @@ ans.innerHTML += lineBreak.toString(2)+" ";
 }}
 function ascii (a) { 
 return a.charCodeAt(0); 
+}
 }
