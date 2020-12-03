@@ -1,4 +1,5 @@
 window.onload=function() {
+window.alert('Hit left alt To convert from binary and Hit right alt To convert from text!');
 var con = document.getElementById("converter");
 con.addEventListener('keydown', function(event) {
   if (event.code == 'AltLeft') {
